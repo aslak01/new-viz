@@ -1,39 +1,19 @@
 {
-  "name": "koronavis2",
-  "version": "0.0.1",
+  "name": "kvis2",
+  "version": "1.0.0",
+  "description": "github scraping cvis",
+  "main": "index.js",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
-    "test": "playwright test",
-    "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
-    "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@playwright/test": "^1.19.1",
-    "@sveltejs/adapter-auto": "next",
-    "@sveltejs/kit": "next",
-    "autoprefixer": "^10.4.2",
-    "cssnano": "^5.0.17",
-    "d3-format": "^3.1.0",
-    "d3-geo": "^3.0.1",
-    "d3-scale": "^4.0.2",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-svelte3": "^3.2.1",
-    "layercake": "^6.1.0",
-    "postcss": "^8.4.7",
-    "postcss-load-config": "^3.1.3",
-    "prettier": "^2.5.1",
-    "prettier-plugin-svelte": "^2.5.0",
-    "svelte": "^3.44.0",
-    "svelte-preprocess": "^4.10.4",
-    "topojson-client": "^3.1.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslak01/new-viz.git"
   },
-  "type": "module",
-  "dependencies": {
-    "open-props": "^1.3.9",
-    "postcss-jit-props": "^1.0.4"
-  }
+  "author": "aslak bakkeland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aslak01/new-viz/issues"
+  },
+  "homepage": "https://github.com/aslak01/new-viz#readme"
 }
